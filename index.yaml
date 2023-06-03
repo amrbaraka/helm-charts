@@ -3,7 +3,7 @@ entries:
   multus:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-06-03T12:37:21.1191338+02:00"
+    created: "2023-06-03T12:54:42.3201267+02:00"
     description: Multus Helm chart for Kubernetes
     digest: 7fa50ef11b8f19038b2f188b0ee5204100f489a729b4f197b92f44439e700475
     home: https://github.com/intel/multus-cni
@@ -15,17 +15,17 @@ entries:
     - https://github.com/intel/multus-cni
     type: application
     urls:
-    - https://amrbaraka.github.io/helm-charts/whereabouts-chart/multus-chart/multus-0.1.2.tgz
+    - https://amrbaraka.github.io/helm-charts/multus-chart/multus-0.1.2.tgz
     version: 0.1.2
   whereabouts:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-03T12:37:21.1196561+02:00"
+    created: "2023-06-03T12:54:42.3207118+02:00"
     description: A Helm chart for Kubernetes
     digest: fe53f55a2037050dd127668ff6cb9f884164deea50755965b45ee7ea426835b5
     name: whereabouts
     type: application
     urls:
-    - https://amrbaraka.github.io/helm-charts/whereabouts-chart/whereabouts-chart/whereabouts-0.1.1.tgz
+    - https://amrbaraka.github.io/helm-charts/whereabouts-chart/whereabouts-0.1.1.tgz
     version: 0.1.1
-generated: "2023-06-03T12:37:21.118323+02:00"
+generated: "2023-06-03T12:54:42.3191685+02:00"

@@ -39,9 +39,9 @@ spec:
                 - fargate
       hostNetwork: true
       tolerations:
-      - key: "ueransim"
+      - key: ueransim
         value: false
-        effect: "NoExecute"
+        effect: NoExecute
       serviceAccountName: multus
       containers:
       - name: kube-multus

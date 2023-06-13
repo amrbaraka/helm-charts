@@ -3,9 +3,9 @@ entries:
   multus:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-06-13T23:01:09.4811186+02:00"
+    created: "2023-06-13T23:09:07.301965+02:00"
     description: Multus Helm chart for Kubernetes
-    digest: cadee1e6cb2af6e0d687a1ef0ab8b277f383ecc834526f22ed97d6687957333a
+    digest: 38814a4cc4983bbf128506360766ddaa02ed6571ffef1b47c5bb1f343cc05bd5
     home: https://github.com/intel/multus-cni
     icon: https://raw.githubusercontent.com/intel/multus-cni/master/doc/images/Multus.png
     maintainers:
@@ -20,7 +20,7 @@ entries:
   sriov:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-06-13T23:01:09.4917635+02:00"
+    created: "2023-06-13T23:09:07.3025429+02:00"
     description: SR-IOV CNI Helm chart for Kubernetes
     digest: 92c64110444628e91225b4636b57dcec769774a4cef29a80709e49222382c798
     home: https://github.com/intel/sriov-network-device-plugin
@@ -37,7 +37,7 @@ entries:
   whereabouts:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-13T23:01:09.4957191+02:00"
+    created: "2023-06-13T23:09:07.3031176+02:00"
     description: A Helm chart for Kubernetes
     digest: fe53f55a2037050dd127668ff6cb9f884164deea50755965b45ee7ea426835b5
     name: whereabouts
@@ -45,4 +45,4 @@ entries:
     urls:
     - https://amrbaraka.github.io/helm-charts/whereabouts-chart/whereabouts-0.1.1.tgz
     version: 0.1.1
-generated: "2023-06-13T23:01:09.4798232+02:00"
+generated: "2023-06-13T23:09:07.3008267+02:00"

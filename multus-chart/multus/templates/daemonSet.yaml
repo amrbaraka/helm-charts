@@ -40,7 +40,7 @@ spec:
       hostNetwork: true
       tolerations:
       - key: "ueransim"
-        value: "false"
+        value: false
         effect: "NoExecute"
       serviceAccountName: multus
       containers:

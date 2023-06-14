@@ -21,17 +21,15 @@ spec:
       nodeSelector:
         kubernetes.io/arch: amd64
       tolerations:
-      - key: node-role.kubernetes.io/master
+      - key: ueransim
         operator: Exists
         effect: NoSchedule
-      - key: ueransim
-        operator: Equal
-        value: "true"
-        effect: NoExecute
+      - key: upf
+        operator: Exists
+        effect: NoSchedule
       - key: free5gc
-        operator: Equal
-        value: "true"
-        effect: NoExecute
+        operator: Exists
+        effect: NoSchedule
       serviceAccountName: sriov-device-plugin
       containers:
       - name: kube-sriovdp

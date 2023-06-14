@@ -41,7 +41,7 @@ spec:
       tolerations:
       - key: "ueransim"
         operator: "Exists"
-        effect: "NoExecute"
+        effect: "NoSchedule"
       serviceAccountName: multus
       containers:
       - name: kube-multus

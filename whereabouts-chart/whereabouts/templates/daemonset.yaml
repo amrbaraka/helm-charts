@@ -22,8 +22,15 @@ spec:
       hostNetwork: true
       serviceAccountName: whereabouts
       tolerations:
-      - operator: Exists
-        effect: NoSchedule
+      - key: "ueransim"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "upf"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "free5gc"
+        operator: "Exists"
+        effect: "NoSchedule"        
       containers:
       - name: whereabouts
         command: [ "/bin/sh" ]
